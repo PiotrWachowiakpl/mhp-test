@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@600&display=swap");
+
+#MyFooter {
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 95 vw;
+  color: white;
+  padding-top: 5px;
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to top,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  );
+}
+h5 {
+  font-weight: bolder;
+}
+
+.NavLink {
+  padding-left: 2px;
+  color: white;
+}
+.NavLink:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+  padding-left: 15px;
+}
+.iframe {
+  margin-top: 5px;
+  border: none;
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 200px;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+/* @media (max-width: 700px) {
+  #MyFooter * {
+    font-size: 0.8rem;
+  }
+} */
