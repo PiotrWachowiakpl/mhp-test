@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 export const VideoDiv = styled.div`
 min-height: 100vh;
-display: block;
+display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 user-select: none;
--webkit-user-select: none;
--moz-user-select: none;
+
 
 border-radius: 15px;
 padding-bottom: 30px;
