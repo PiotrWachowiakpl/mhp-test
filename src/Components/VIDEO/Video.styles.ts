@@ -7,8 +7,6 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 user-select: none;
-
-
 border-radius: 15px;
 padding-bottom: 30px;
 padding-top:30px;

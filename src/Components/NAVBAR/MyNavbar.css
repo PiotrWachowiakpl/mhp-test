@@ -1,13 +1,18 @@
 .MyNavbar {
-    height: 50px;
+  height: 50px;
   display: flex;
   justify-content: flex-end;
-  position: sticky;
+  position: static;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 5px rgb(0, 0, 0, 0.25);
+transition: box-shadow 100ms;
 }
 
 .MyNavbarLinks {
   display: flex;
   color: black;
+  margin-right: 10px;
 }
 
 .MyNavbarLinks:hover {
@@ -16,3 +21,4 @@
     ;
     color: rgb(83, 83, 83)
   }
+

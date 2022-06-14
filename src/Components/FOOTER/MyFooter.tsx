@@ -7,53 +7,17 @@ const MyFooter = () => {
       <Navbar expand="lg" className="justify-content-center ">
         <Container className="d-inline">
           <Row style={{}}>
-            {/* <Col xs={4} style={{ fontSize: "14px" }}>
-              <h5>Hoop Dog</h5>
-              <Nav.Link className="NavLink" href="/home">
-                O nas
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Treningi
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Hotel
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/Products" target={"_blank"}>
-                Sklep
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Zarądzenie kontem
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/PWach">
-                © {new Date().getFullYear()} Piotr Wachowiak{" "}
-              </Nav.Link>
-            </Col>
-            <Col xs={4} style={{ fontSize: "14px" }}>
-              <h5>Informacje i Usługi</h5>
-              <Nav.Link className="NavLink" href="/home">
-                Regulamin
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Polityka prywatności
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Warunki dostawy
-              </Nav.Link>
-              <Nav.Link className="NavLink" href="/home">
-                Polityka cookies
-              </Nav.Link>
-            </Col> */}
             <Col xs={12} style={{ fontSize: "14px" }}>
               <h5>Skontaktuj się z nami</h5>
 
               <div className="">
                 Hoop Dog
-                {/* <br />
+                <br />
                 Zdrój 28K
                 <br />
-                62-065 Grodzisk Wlkp */}
+                62-065 Grodzisk Wlkp
               </div>
-              <br/>
+              <br />
 
               <iframe
                 className="iframe"
