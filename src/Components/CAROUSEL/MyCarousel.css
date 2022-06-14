@@ -1,0 +1,14 @@
+#Carousel {
+  overflow: hidden;
+
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 5px rgb(0, 0, 0, 0.25);
+  transition: box-shadow 100ms;
+}
+
+.carousel {
+  height: 450px;
+
+  object-fit: cover;
+}

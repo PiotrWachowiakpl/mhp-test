@@ -1,11 +1,11 @@
 import React from "react";
 import { VideoCardDiv } from "./VideoCard.styles";
 
+
 type Props = {
     img: string;
     video: string
 }
-
 const VideoCard: React.FC <Props>= ({img, video}) =>{
 
 const handleOnMouseOver = (e:React.MouseEvent<HTMLVideoElement>) =>{
