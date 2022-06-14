@@ -40,8 +40,8 @@ h5 {
   max-height: 200px;
   filter: grayscale(100%) invert(92%) contrast(83%);
 }
-
-/* @media (max-width: 700px) {
+/* 
+@media (max-width: 700px) {
   #MyFooter * {
     font-size: 0.8rem;
   }
